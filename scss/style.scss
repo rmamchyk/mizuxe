@@ -37,6 +37,25 @@ body {
   border-bottom: 1px solid #ddd;
 }
 
+#authors {
+  img {
+    margin-top: -50px;
+  }
+
+  .card {
+    cursor: pointer;
+
+    &:hover {
+      background-color: $primary;
+      color: #fff;
+
+      .fab {
+        color: #fff;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 768px) {
   #showcase {
     min-height: 500px;
