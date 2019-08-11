@@ -33,8 +33,8 @@ body {
   #authors .card:hover {
     background-color: #3292a6;
     color: #fff; }
-    #authors .card:hover .fab {
-      color: #fff; }
+  #authors .card .fab {
+    color: #fff; }
 
 @media screen and (max-width: 768px) {
   #showcase {
